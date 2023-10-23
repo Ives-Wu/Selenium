@@ -1,10 +1,13 @@
 from selenium import webdriver
 import time
 
-# 初始化一个浏览器实例
-driver = webdriver.Chrome()  # 或者使用其他浏览器，如Firefox
+# 目前是透過擴充套件抓cookie 但應該用selenium也可以抓 待研究
 
-# 打开目标网站，确保在加载Cookies之前
+
+
+driver = webdriver.Chrome()  
+
+
 driver.get("https://shopee.tw/")
 time.sleep(3)
 
