@@ -27,8 +27,8 @@ time.sleep(3)
 account = driver.find_element(By.NAME,"loginKey") #定位帳號輸入處
 pw = driver.find_element(By.NAME,"password") #定位密碼輸入處
 
-account.send_keys("Rice0000")
-pw.send_keys("Rice26305117")
+account.send_keys("X")
+pw.send_keys("X")
 pw.send_keys(Keys.RETURN) #需先手動登入一次 初次登入會跳出要寄簡訊驗證碼
 time.sleep(3)
 
