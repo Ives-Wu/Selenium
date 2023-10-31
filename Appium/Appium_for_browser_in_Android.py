@@ -25,7 +25,7 @@ Pre-setting
 device = {
     'platformName' : 'Android',
     'platformVersion' : '11.0',
-    'deviceName' : '13021FDD4006Q3',
+    'deviceName' : 'UDID or SN',
     'browserName' : 'Chrome',
     'chromeOptions': {'args':['--incognito', '--disable-cache']}
 }
