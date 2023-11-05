@@ -11,9 +11,9 @@ import os
 import time
 
 """""
-Pre-setting
+Pre-setting, for more detail please refer README.md
 1. Download Appium GUI in GitHub
-2. pip install Appium-Python_Client
+2. pip install Appium-Python-Client
 3. Download Appium Inspector in GitHub for check element
 4. Set Android_HOME env var to where Android SDK in
 5. Set JAVA_HOME env var to where JDK in
