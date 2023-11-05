@@ -14,7 +14,7 @@ The code is scripted in any programming language like PHP, Java, Phyton, etc. Th
 *2.Appium Client*\
 Appium server is written using Node.js programming language. It receives connection and command requests from the Appium client in JSON format and executes that command on mobile devices. The Server is necessary to be installed in the machine and is started before invoking the automation code.
 The server interacts with various platforms such as iOS and Android. It creates a session to interact with end devices of mobile apps. It is an HTTP server written in Node.js programming language which reads the HTTP requests from the client libraries and sends these requests to the appropriate platform.
-To start the server, users need to download the source or install it directly from **Npm**($npm install -g appium). It also provides the GUI version of the server.
+To start the server, users need to download the source or install it directly from **Npm**. It also provides the GUI version of the server.
 
 *3. End Device*\
 This is mostly a real-time mobile device or an emulator. The automation scripts are executed in the end device by the Appium server by the commands from the client.
